@@ -30,6 +30,7 @@ function getSeason(date) {
     10: 'fall',
     11: 'winter',
   };
+  
   try {
     let month = date.getMonth().toString();
     date.getTime();
